@@ -9,7 +9,7 @@ echo $SHELL
 
 to access the value of the environment variable SHELL. In most cases it will be either 'zrc' or ''. Cf. the screenshot below:
 
-![Alt text](/Users/arturwegrzyn/gitlab_repos/aw.notebook/screenshots/screenshot_change_shell.png "Optional title")
+![Alt text](./screenshots/screenshot_change_shell.png "Optional title")
 
 
 ### 2. Change to the shell of your joice
@@ -24,4 +24,4 @@ After you execute the ```chsh -s /bin/bash``` you will be asked for your passwor
 ### 3. Explanatory remarks
 The reson why ```chsh -s /bin/bash``` works is given on the man page - just run ```man chsh``` in the terminal - the output of the command is given in the screenshot below - cf. the ```-s``` section:
 
-![Alt text](/Users/arturwegrzyn/gitlab_repos/aw.notebook/screenshots/screenshot_shell_man.png "Optional title")
+![Alt text](./screenshots/screenshot_shell_man.png "Optional title")
