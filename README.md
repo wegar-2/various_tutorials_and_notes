@@ -11,5 +11,5 @@ This repository is meant to be used as an easily accessible reference by the aut
 1. [How to install tensorflow for Python under MacOS?](./install_tensorflow_under_macos.md)
 2. [How to change terminal's default shell under MacOS?](change_default_shell_in_terminal_under_macos.md)
 3. [How to permanently set environment variable under MacOS for Z Shell?](./permanently_set_environment_variable_under_macos_for_zrc_shell.md)
-[How to create requirements txt file?](./create_requirements_txt_file_in_VM_with_installed_packages.md)
-5. [How to install all the packages from the requirements.txt file in virtual environment?](install_packages_listed_in_requirements_txt.md)
+4. [How to create requirements txt file?](./create_requirements_txt_file_in_VM_with_installed_packages.md)
+5. [How to install all the packages from the requirements.txt file in virtual environment?](./install_packages_listed_in_requirements_txt.md)
