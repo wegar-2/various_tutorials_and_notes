@@ -14,3 +14,8 @@ In order to do this, add the following line to your ```.zprofile``` file (e.g. u
 ``` export MY_NEW_ENV="qwerty" ```
 
 save the changes, close that file and restart the *terminal* (so that the ```zprofile``` gets executed on login). Check the value of the *MY\_NEW\_ENV* environment variable by running ```echo $MY_NEW_ENV``` in the terminal. 
+
+
+#### References
+
+The following Stack Exchange [discussion](https://apple.stackexchange.com/questions/356441/how-to-add-permanent-environment-variable-in-zsh).
