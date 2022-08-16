@@ -1,4 +1,4 @@
-### How to create requirements.txt file in virtualenv with all currently installed packages
+### How to create requirements.txt file in virtualenv with all currently installed packages?
 
 Suppose that you are working in a Python virtual environment and that you have installed some packages and want to dump all of them into a ```requirements.txt``` file.
 

@@ -1,4 +1,4 @@
-## How to permanently set environment variable under MacOS for zrc shell?
+## How to permanently set environment variable under MacOS for Z Shell?
 
 Firstly, review the startup process of Z Shell - e.g. [here](https://tanguy.ortolo.eu/blog/article25/shrc).
 

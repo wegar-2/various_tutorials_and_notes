@@ -1,4 +1,4 @@
-# How to change shell under MacOS
+# How to change terminal's default shell under MacOS?
 
 ### 1. Check the shell that you are using
 To check the active shell, open the terminal and run:
