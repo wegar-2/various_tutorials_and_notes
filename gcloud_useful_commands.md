@@ -1,6 +1,9 @@
 ## Subjective List of Useful ```gcloud``` Commands
 
 
+Useful reference with exhaustive list of `gcloud` commands is available [here](https://gist.github.com/pydevops/cffbd3c694d599c6ca18342d3625af97#011-service-account).
+
+
 #### 1. Log-in via browser
 
 ``` gcloud auth login ```
@@ -64,9 +67,13 @@ gcloud config set project MY_PROJECT
 Read more on this [here](https://stackoverflow.com/questions/46770900/how-to-change-the-project-in-gcp-using-cli-commands).
 
 
-#### 8. Create service account
+#### 8. Create & configure a new service account
 
-This section is based on [official `gcloud` documentation](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
+
+This section is based on [official `gcloud` documentation](https://cloud.google.com/iam/docs/creating-
+managing-service-accounts).
+
+##### 8.1. Create a new service account
 
 Assumptions: the IAM API is active for the project for which you want to create the service account.
 
@@ -87,5 +94,23 @@ gcloud iam service-accounts create JohnDoe \
 
 ```
 
+##### 8.2. List the existing service accounts
+
+In order to display the list of existing service accounts run the following command:
+
+```
+gcloud iam service-accounts list
+```
+
+
+##### 8.3. Grant role to a service account
+
+In order to assign an existing role `MY_ROLE` to Google Cloud service account `SERVICE_ACCOUNT_ID` use the command: 
+
+```
+gcloud projects add-iam-policy-binding PROJECT_ID \
+    --member="serviceAccount:SERVICE_ACCOUNT_ID@PROJECT_ID.iam.gserviceaccount.com" \
+    --role="ROLE_NAME" 
+```
 
 
