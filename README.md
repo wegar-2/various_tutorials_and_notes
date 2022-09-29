@@ -16,8 +16,10 @@ This repository is meant to be used as an easily accessible reference by the aut
 3. [How to permanently set environment variable under MacOS for Z Shell?](./permanently_set_environment_variable_under_macos_for_zrc_shell.md)
 4. [How to create requirements txt file?](./create_requirements_txt_file_in_VM_with_installed_packages.md)
 5. [How to install all the packages from the requirements.txt file in virtual environment?](./install_packages_listed_in_requirements_txt.md)
-
+6. [List of Basic pip commands](./list_of_useful_pip_terminal_commands.md)
+7. [How to Setup TensorFlow+Keras to Work in Jupyter Notebook under MacOS?](./setting_up_tensorflow_and_keras_under_mac_for_pycharm_and_jupyter.md)
 
 ### Google Cloud Tutorials
 
-1 [Subjective List of Useful ```gcloud``` Commands](./gcloud_useful_commands.md)
+1. [Subjective List of Useful ```gcloud``` Commands](./gcloud_useful_commands.md)
+2. [How Do I Get the List of Service Accounts?](./check_service_accounts_google_cloud.md)
