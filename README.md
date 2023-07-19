@@ -1,4 +1,4 @@
-# Various tutorials and notes
+# Various Tutorials and Notes
 
 This repository contains (actually: is *intended* to contain) notes on various topics that you come across while developing in Python and R.
 
@@ -25,7 +25,7 @@ This repository is meant to be used as an easily accessible reference by the aut
 
 1. [Subjective List of Useful ```gcloud``` Commands](./gcloud_useful_commands.md)
 2. [How Do I Get the List of Service Accounts?](./check_service_accounts_google_cloud.md)
-3. [Networking Topics: General and GCP-specific ](./networking_topics.md)
+3. [Networking Topics: General and GCP-specific](./networking_topics.md)
 
 ### Docker
 
